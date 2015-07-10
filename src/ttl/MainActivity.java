@@ -22,8 +22,8 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
-
+        setContentView(R.layout.number_select);
+/*
         SimpleAdapter adapter = new SimpleAdapter(MainActivity.this,getData(),R.layout.main_item,new String[]{"img","title"},new int[]{R.id.img,R.id.text});
         ListView lv = (ListView)findViewById(R.id.mainlist);
       //  spinner1.setAdapter(adapter);
@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
                 Toast.makeText(MainActivity.this, "你点击了确定按钮:-v80v-"+getData().get(position).get("title"), Toast.LENGTH_LONG ).show();
             }
         });
-        lv.setAdapter(adapter);
+        lv.setAdapter(adapter);*/
     }
 
 
