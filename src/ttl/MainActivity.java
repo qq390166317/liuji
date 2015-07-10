@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
       //  spinner1.setAdapter(adapter);
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this, "你点击了确定按钮:-v80v-"+getData().get(position).get("title"), Toast.LENGTH_LONG ).show();
+                Toast.makeText(MainActivity.this, "你点击了确定按钮:-v80sv-"+getData().get(position).get("title"), Toast.LENGTH_LONG ).show();
             }
         });
         lv.setAdapter(adapter);*/
